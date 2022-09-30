@@ -1,3 +1,38 @@
-.customerDiv {
-    border: black 5px
+*{
+    font-family:"Open sans", sans-serif;
 }
+.customerDiv{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.peopleDiv{
+    width: 300px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.name{
+    text-transform: capitalize;
+}
+
+.eMail{
+    font-weight: 275;
+    color: grey
+}
+
+.picture{
+    border-top-right-radius: 60%;
+    border-bottom-left-radius: 60%;
+    border-top-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+}
+
+
+
+
+
+
+
+
